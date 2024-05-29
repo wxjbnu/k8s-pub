@@ -1,6 +1,6 @@
 workload:
   metadata:
-    name: myapp
+    name: k8s-pub
   source:
     paths:
     - path: ./app
