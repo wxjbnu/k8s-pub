@@ -1,0 +1,10 @@
+workload:
+  metadata:
+    name: myapp
+  source:
+    paths:
+    - path: ./app
+    dockerfile:
+      path: ./app/Dockerfile
+      metadata:
+        imageName: wi7/myapp
